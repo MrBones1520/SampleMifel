@@ -5,7 +5,6 @@ import lombok.Getter;
 import org.example.entities.Person;
 
 import java.util.List;
-import java.util.Objects;
 import java.util.Optional;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -37,17 +36,5 @@ public class PersonResponse extends BasicResponse{
     }
 
 
-    public boolean hasResult(){
-        return Objects.nonNull(this.result);
-    }
-
-    public boolean hasResults(){
-        return Objects.nonNull(this.results);
-    }
-
-
-    public boolean isValid(){
-        return valid = hasResult() || hasResults();
-    }
 
 }
