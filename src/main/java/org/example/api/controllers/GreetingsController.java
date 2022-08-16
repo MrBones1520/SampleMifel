@@ -1,4 +1,4 @@
-package org.example.controllers;
+package org.example.api.controllers;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -20,7 +20,7 @@ public class GreetingsController {
      */
     @RequestMapping(value = "/{name}", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
-    public String greetingText(@PathVariable String name) {
+    public String greetingText(@PathVariable String name){
         return "Hello " + name + "!";
     }
 }
