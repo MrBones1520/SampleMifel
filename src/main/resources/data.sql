@@ -3,8 +3,8 @@ INSERT INTO PERSON
 (id, name, first_name, last_name)
 VALUES
 (1,'Aldo Daniel', 'Sanchez', 'Bastida'),
-(2,'Jesse', 'Pinkman', ''),
-(3,'Jack', 'Sparrow', ''),
+(2,'Jesse', 'Bruce', 'Pinkman'),
+(3,'Jack', 'Captain', 'Spawwor'),
 (4,'Jimmy', 'Patrick', 'Page'),
 (5,'Juan Jesus', 'Morales', 'Ortiz');
 
