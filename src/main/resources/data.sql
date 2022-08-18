@@ -1,3 +1,9 @@
+INSERT INTO ROLES
+(name) VALUES
+('ROLE_USER'),
+('ROLE_MODERATOR'),
+('ROLE_ADMIN');
+
 -- Información de cada cliente
 INSERT INTO PERSON
 (id, name, first_name, last_name)

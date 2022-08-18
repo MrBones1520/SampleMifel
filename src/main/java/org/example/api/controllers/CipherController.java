@@ -16,7 +16,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
 
 @RestController
-@RequestMapping("/crypto")
+@RequestMapping("/api/crypto")
 public class CipherController {
 
     final EncryptService encryptService;
